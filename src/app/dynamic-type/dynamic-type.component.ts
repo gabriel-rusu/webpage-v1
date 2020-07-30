@@ -10,10 +10,10 @@ export class DynamicTypeComponent implements OnInit {
   words: string[];
 
   @Input()
-  delta: number;
+  speed: number;
 
   @Input()
-  pauseAfterWord: number;
+  pause: number;
   word: string;
   wordIndex: number;
   currentChar: number;
@@ -32,7 +32,7 @@ export class DynamicTypeComponent implements OnInit {
   type(): any {
     let currentWordLength = this.words[this.wordIndex].length;
     if (this.currentChar < 0 && this.backwards) {
-      this.delta *= 2;
+      this.speed *= 2;
       this.currentChar = 0;
       this.word = "|";
       this.backwards = false;
@@ -44,13 +44,13 @@ export class DynamicTypeComponent implements OnInit {
       } else this.currentChar--;
     } else if (this.currentChar > currentWordLength) {
       this.backwards = true;
-      this.delta /= 2;
+      this.speed /= 2;
       this.currentChar--;
     }
     var self = this;
     setTimeout(function () {
       self.type();
-    }, this.currentChar > currentWordLength ? this.pauseAfterWord : this.delta);
+    }, this.currentChar > currentWordLength ? this.pause : this.speed);
 
   }
 

@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  delta = 200;
+  delta = 140;
   theme = 'dark-theme-word'
   words = ['Software Engineer', 'Student']
 }
