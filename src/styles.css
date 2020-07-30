@@ -1,10 +1,82 @@
 /* You can add global styles to this file, and also import other style files */
-@import './app/vendor/semantic.min.css';
 
-.dark-theme-background {
-    background-color: rgb(28,28,30);
+@import "./app/vendor/semantic.min.css";
+
+html,
+body {
+  font-family: "Raleway", sans-serif !important;
+  font-size: 25px;
+  background: #000000;
+  color: #aaa;
+  margin: 0px;
 }
 
-.dark-theme-word {
-    color: rgb(242,242,247)
+.background {
+  background-color: #000000;
+}
+
+.wrap {
+  min-height: 10px;
+}
+
+.header-text {
+  font-family: "Raleway", sans-serif !important;
+  color: #cccccc;
+  margin-bottom: 5px;
+}
+
+.normal-text {
+  font-family: "Raleway", sans-serif !important;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+h1,
+h2 {
+  font-weight: 200;
+}
+h1 {
+  font-size: 3.5em;
+}
+h2 {
+  color: #888;
+  font-size: 2em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+li {
+  display: inline;
+}
+
+li:hover {
+  color: rgb(255, 204, 0);
+}
+
+.nav-bar {
+  padding: 20px;
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 40px;
+  display: flex;
+  align-items: center;
 }
