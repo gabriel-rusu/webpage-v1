@@ -6,6 +6,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { EducationComponent } from './education/education.component';
 import { DynamicTypeComponent } from './dynamic-type/dynamic-type.component';
+import { RotativeTextComponent } from './rotative-text/rotative-text.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { DynamicTypeComponent } from './dynamic-type/dynamic-type.component';
     ExperienceComponent,
     ProjectsComponent,
     EducationComponent,
-    DynamicTypeComponent
+    DynamicTypeComponent,
+    RotativeTextComponent
   ],
   imports: [
     BrowserModule
