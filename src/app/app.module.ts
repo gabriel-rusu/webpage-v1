@@ -6,6 +6,8 @@ import { ExperienceComponent } from './experience/experience.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { EducationComponent } from './education/education.component';
 import { DynamicTypeComponent } from './dynamic-type/dynamic-type.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ProjectService } from './services/project/project.service';
 
 @NgModule({
   declarations: [
@@ -16,9 +18,10 @@ import { DynamicTypeComponent } from './dynamic-type/dynamic-type.component';
     DynamicTypeComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ProjectService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
