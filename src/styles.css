@@ -19,6 +19,8 @@ body {
   font-family: "Raleway", sans-serif !important;
   color: #cccccc;
   margin-bottom: 5px;
+  font-size: 3.5em;
+
 }
 
 .normal-text {
@@ -75,4 +77,20 @@ li:hover {
   height: 40px;
   display: flex;
   align-items: center;
+}
+
+.oblique {
+  font-style: italic !important;
+}
+
+span {
+  border-right: .15em solid;
+  animation: caret 1s steps(1) infinite;
+  font-size: 80%;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
 }

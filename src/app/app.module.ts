@@ -5,9 +5,10 @@ import { AppComponent } from './app.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { EducationComponent } from './education/education.component';
-import { DynamicTypeComponent } from './dynamic-type/dynamic-type.component';
+import { DynamicTypeComponent } from './components/dynamic-type/dynamic-type.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProjectService } from './services/project/project.service';
+import { TypingComponent } from './components/typing/typing.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { ProjectService } from './services/project/project.service';
     ProjectsComponent,
     EducationComponent,
     DynamicTypeComponent,
+    TypingComponent,
   ],
   imports: [
     BrowserModule,

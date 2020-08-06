@@ -1,5 +1,8 @@
 <div>
   <h1 class="header-text">Hi, I'm Gabi</h1>
-  <dynamic-type [words]="[]" [speed]="delta" [pause]="1000"></dynamic-type>
+  <dynamic-type [words]="words" [speed]="delta" [pause]="1000"></dynamic-type>
   <!-- <p *ngFor="let repo of repos">{{repo.full_name}}</p> -->
+  <h4 class="normal-text">
+    <typing [word]="word" [id]="'test-id'" [speed]="125"></typing>
+  </h4>
 </div>

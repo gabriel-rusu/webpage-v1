@@ -11,6 +11,7 @@ export class AppComponent implements OnInit {
   theme = 'dark-theme-word'
   words = ["Software Engineer", "System Engineering student", "Undergraduate Teaching Assistant", "Open Source Enthusiast"]
   repos: [] = [];
+  word = 'Projects'
 
   constructor(private projectService: ProjectService) {
 
