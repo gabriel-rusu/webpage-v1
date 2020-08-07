@@ -1,8 +1,20 @@
-<div>
-  <h1 class="header-text">Hi, I'm Gabi</h1>
-  <dynamic-type [words]="words" [speed]="delta" [pause]="1000"></dynamic-type>
-  <!-- <p *ngFor="let repo of repos">{{repo.full_name}}</p> -->
-  <h4 class="normal-text">
-    <typing [word]="word" [id]="'test-id'" [speed]="125"></typing>
-  </h4>
+<div class="row">
+  <div class="twelve column">
+    <h1 class="header-text">Hi, I'm Gabi</h1>
+    <dynamic-type [words]="words" [speed]="delta" [pause]="1000"></dynamic-type>
+  </div>
+</div>
+
+<div class="row">
+  <div class="four wide collumn"></div>
+  <div class="four wide collumn">
+    <div class="four small column"></div>
+    <div class="four small column">
+      <a href="https://www.facebook.com/gabriel.rusu.10485/"><i class="blue facebook f icon"></i></a>
+      <a href="https://github.com/RusuGabriel"><i class="inverted github icon"></i></a>
+      <a href=""><i class="blue linkedin icon"></i></a>
+    </div>
+    <div class="four small column"></div>
+  </div>
+  <div class="four wide collumn"></div>
 </div>
