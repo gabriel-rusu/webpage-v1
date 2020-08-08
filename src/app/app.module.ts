@@ -10,6 +10,7 @@ import { EducationComponent } from './pages/education/education.component';
 import { ProjectsComponent} from './pages/projects/projects.component';
 import { AppRoutingModule } from './app-routing.module';
 import { WelcomeComponent } from './pages/welcome/welcome.component';
+import { ProjectComponent } from './components/project/project.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { WelcomeComponent } from './pages/welcome/welcome.component';
     DynamicTypeComponent,
     TypingComponent,
     WelcomeComponent,
+    ProjectComponent,
   ],
   imports: [
     BrowserModule,

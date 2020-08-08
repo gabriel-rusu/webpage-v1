@@ -8,6 +8,7 @@ body {
   font-size: 25px;
   background: #000000;
   color: #aaa;
+  overflow-y: auto;
   margin: 0px;
 }
 

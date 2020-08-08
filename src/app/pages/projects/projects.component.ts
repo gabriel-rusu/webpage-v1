@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ProjectService } from 'src/app/services/project/project.service';
+import { Project } from '../../models/project.model';
 
 @Component({
   selector: 'app-projects',
@@ -7,7 +8,9 @@ import { ProjectService } from 'src/app/services/project/project.service';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-  projects: Array<any>
+  title: string = "Projects"
+  speed: number = 250;
+  projects: Array<Project>
 
   constructor(private projectService: ProjectService) { }
 
