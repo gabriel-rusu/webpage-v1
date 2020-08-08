@@ -25,7 +25,6 @@ export class TypingComponent implements OnInit {
     let self = this;
     let currentIndex = this.writtenWord.length - 1;
     if (this.finishedTyping()){
-      console.log("finished!!!");
       let element = document.getElementById(this.id);
       element.innerHTML = element.textContent.substring(0,this.word.length+1) + `<span class="cursor" aria-hidden="true"></span>`;
       return;
