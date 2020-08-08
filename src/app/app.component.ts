@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ProjectService } from './services/project/project.service';
 
 @Component({
   selector: 'app-root',
@@ -8,11 +7,10 @@ import { ProjectService } from './services/project/project.service';
 })
 export class AppComponent implements OnInit {
   
-  constructor(private projectService: ProjectService) {
+  constructor() {
 
   }
 
   ngOnInit() {
-    this.projectService.getProjects().subscribe(repos => this.repos = repos as []);
   }
 }

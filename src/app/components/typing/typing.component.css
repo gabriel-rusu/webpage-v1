@@ -1,5 +1,5 @@
-span {
-    border-right: .05em solid;
+span.cursor{
+    border-right: 5% solid;
     animation: caret 1s steps(1) infinite;
   }
   
