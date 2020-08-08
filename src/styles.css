@@ -85,8 +85,8 @@ li:hover {
   font-style: italic !important;
 }
 
-span.cursor {
-  border-right: 5% solid;
+span {
+  border-right: 3px solid;
   animation: caret 1s steps(1) infinite;
   font-size: 80%;
 }

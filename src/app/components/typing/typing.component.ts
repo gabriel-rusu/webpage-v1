@@ -31,7 +31,6 @@ export class TypingComponent implements OnInit {
     }
 
     this.writtenWord = this.word.substr(0, currentIndex + 1) + "|";
-    console.log(this.writtenWord);
     setTimeout(function() {self.typing()}, this.speed);
   }
   finishedTyping() {
