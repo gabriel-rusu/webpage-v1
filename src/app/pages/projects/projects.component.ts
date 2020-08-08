@@ -10,13 +10,14 @@ import { Project } from '../../models/project.model';
 export class ProjectsComponent implements OnInit {
   title: string = "Projects"
   speed: number = 250;
-  projects: Array<Project>
+  projects: Project[]
 
   constructor(private projectService: ProjectService) { }
 
   ngOnInit(): void {
     this.projectService.getProjects().subscribe(data => {
       this.projects = data;
+      this.projects.forEach(project => project.name = project.name)
       console.log(this.projects);
     });
   }
