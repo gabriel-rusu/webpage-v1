@@ -8,6 +8,8 @@ import { TypingComponent } from './components/typing/typing.component';
 import { ExperienceComponent } from './pages/experience/experience.component';
 import { EducationComponent } from './pages/education/education.component';
 import { ProjectsComponent} from './pages/projects/projects.component';
+import { AppRoutingModule } from './app-routing.module';
+import { WelcomeComponent } from './pages/welcome/welcome.component';
 
 @NgModule({
   declarations: [
@@ -17,10 +19,12 @@ import { ProjectsComponent} from './pages/projects/projects.component';
     ProjectsComponent,
     DynamicTypeComponent,
     TypingComponent,
+    WelcomeComponent,
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule
   ],
   providers: [ProjectService],
   bootstrap: [AppComponent]

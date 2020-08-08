@@ -7,12 +7,7 @@ import { ProjectService } from './services/project/project.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  delta = 170;
-  theme = 'dark-theme-word'
-  words = ["Software Engineer", "System Engineering student", "Undergraduate Teaching Assistant", "Open Source Enthusiast"]
-  repos: [] = [];
-  word = 'Projects'
-
+  
   constructor(private projectService: ProjectService) {
 
   }
