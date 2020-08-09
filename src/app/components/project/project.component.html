@@ -1,21 +1,21 @@
-<div class="center aligned projects">
+<div *ngIf="project?.description?.length > 20" class="center aligned projects">
   <div class="ui card">
     <div class="content">
       <div class="header" style="word-wrap: break-word;">{{getNameOf(project)}}</div>
     </div>
     <div class="content">
-      <div class="ui small feed">
+      <div class="ui wide feed">
         <div class="event">
           <div class="content">
             <div class="summary">
-              {{project.description}}
+              {{project.description.substring(0,50) + '...'}}
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="extra content">
-      <a href="{{project.html_url}}"><button class="ui button"><i class="icon github"></i>Github</button></a>
+      <a href="{{project.html_url}}"><button class="ui button"><i class="icon github"></i>See more on</button></a>
     </div>
   </div>
 </div>
