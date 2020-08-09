@@ -12,7 +12,7 @@ export class TypingComponent implements OnInit {
   @Input() speed: number;
   @Input() id: string;
   @Output()
-  ready: EventEmitter<boolean>;
+  ready: EventEmitter<boolean>; //TODO: debug this component
   writtenWord: string;
 
   constructor() {
