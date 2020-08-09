@@ -1,24 +1,15 @@
 <!-- <div class="container " style="overflow-y: auto; max-height: 500px;"> -->
-<div class="ui grid">
+<div class="ui grid" align="center">
     <div class="row">
         <div class="four wide column"></div>
         <div class="eight wide column">
             <h1 class="header-text">
-                <typing [word]="title" [speed]="speed" [id]="title"></typing>
+                <typing [word]="title" [speed]="speed" [id]="title" (ready)="showContent(ready)"></typing>
             </h1>
         </div>
         <div class="four wide column"></div>
     </div>
 </div>
-
-
-
-<!-- <div class="ui grid" style="overflow-y:auto;white-space:nowrap;">
-    <div class="content"></div>
-    <div class="content" *ngFor="let project of projects">
-        <project [project]="project"></project>
-    </div>
-  </div> -->
 
 <div *ngIf="ready" class="ui grid">
     <div class="row">

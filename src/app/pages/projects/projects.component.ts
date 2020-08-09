@@ -11,7 +11,7 @@ export class ProjectsComponent implements OnInit {
   title: string = "Projects"
   speed: number = 250;
   projects: Project[];
-  ready: boolean;
+  ready: boolean = false;
 
   constructor(private projectService: ProjectService) { }
 
@@ -20,6 +20,10 @@ export class ProjectsComponent implements OnInit {
       this.projects = data;
       this.ready = true;
     });
+  }
+
+  showContent(ready: boolean) : void {
+    this.ready = ready;
   }
 
 }
