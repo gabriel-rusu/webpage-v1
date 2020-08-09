@@ -1,4 +1,5 @@
-<div class="ui card" style="min-width: auto;">
+<div class="center aligned projects">
+  <div class="ui card">
     <div class="content">
       <div class="header" style="word-wrap: break-word;">{{getNameOf(project)}}</div>
     </div>
@@ -7,7 +8,7 @@
         <div class="event">
           <div class="content">
             <div class="summary">
-               {{project.description}}
+              {{project.description}}
             </div>
           </div>
         </div>
@@ -17,3 +18,34 @@
       <a href="{{project.html_url}}"><button class="ui button"><i class="icon github"></i>Github</button></a>
     </div>
   </div>
+</div>
+
+<!-- 
+  <div class="four wide column center aligned votes">
+    <div class="ui statistic">
+        <div class="value">
+            {{article.votes}}
+        </div>
+        <div class="label">
+            Points
+        </div>
+    </div>
+</div>
+<div class="twelve wide column">
+    <a href="{{article.link}}" class="ui large header">{{article.title}}</a>
+    <div class="meta">({{article.domain()}})</div>
+    <ul class="ui big horizontal list voters">
+        <li class="item">
+            <a href="" (click)="voteUp()">
+                <i class="arrow up icon"></i>
+                upvote
+            </a>
+        </li>
+        <li class="item">
+            <a href="" (click)="voteDown()">
+                <i class="arrow down icon"></i>
+                downvote
+            </a>
+        </li>
+    </ul>
+</div> -->
