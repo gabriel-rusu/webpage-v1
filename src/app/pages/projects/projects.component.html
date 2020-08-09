@@ -19,17 +19,9 @@
     </div>
   </div> -->
 <div class="row">
-    <div class="ui three column grid">
-        <div class="row" *ngFor="let project of projects">
-            <div class="column">
-                <p></p>
-            </div>
-            <div class="column">
-                <project [project]="project"></project>
-            </div>
-            <div class="column">
-                <p></p>
-            </div>
+    <div class="collection">
+        <div class="item" *ngFor="let project of projects">
+            <project [project]="project"></project>
         </div>
     </div>
 </div>

@@ -15,5 +15,8 @@ export class ProjectComponent implements OnInit {
   ngOnInit(): void {
   }
 
-
+  getNameOf(project: Project) {
+    let words = project.name.split('-');
+    return words.join(' ');
+  }
 }
