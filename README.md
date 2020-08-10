@@ -101,7 +101,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [Visual Studio Code](https://code.visualstudio.com/) - code editor
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Angular 10](https://nodejs.org/en/) - Server Environment
+- [Semantic UI](https://semantic-ui.com/) - framework that helps create beautiful, responsive layouts using human-friendly HTML.
 
 ## ✍️ Authors <a name = "authors"></a>
 - [@RusuGabriel](https://github.com/RusuGabriel) - Idea & Implementation
