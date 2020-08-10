@@ -14,13 +14,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
@@ -77,7 +70,11 @@ until finished
 End with an example of getting some data out of the system or using it for a little demo.
 
 ## 🔧 Running the tests <a name = "tests"></a>
-Explain how to run the automated tests for this system.
+
+- Running unit tests
+    - Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Running end-to-end tests
+    - Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ### Break down into end to end tests
 Explain what these tests test and why
