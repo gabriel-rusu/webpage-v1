@@ -107,6 +107,12 @@ span {
   margin: 10px;
 }
 
+.project {
+  min-height: 290px;
+  height: 290px;
+}
+
+
 .pad {
   padding: 10px;
 

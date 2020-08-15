@@ -20,9 +20,9 @@
   </div>
 </div> -->
 
-<a *ngIf="project?.description?.length > 20" class="ui card" href="{{project.html_url}}">
-  <div class="content">
-    <div class="header">{{project.name}}</div>
+<a *ngIf="project?.description?.length > 0" class="ui card" href="{{project.html_url}}">
+  <div class="content project">
+    <div class="header" style="word-wrap: break-word;">{{getNameOf(project)}}</div>
     <div class="description">
       <p>{{project.description.substring(0,50) + '...'}}</p>
     </div>
