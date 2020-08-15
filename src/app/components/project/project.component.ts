@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, HostBinding } from '@angular/core';
 import { Project } from '../../models/project.model'
 
 @Component({
@@ -9,6 +9,8 @@ import { Project } from '../../models/project.model'
 export class ProjectComponent implements OnInit {
   @Input()
   project: Project;
+
+  @HostBinding('attr.class') cssClasses = 'pad'
 
 
   constructor() { }

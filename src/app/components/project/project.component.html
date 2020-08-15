@@ -1,4 +1,4 @@
-<div *ngIf="project?.description?.length > 20" class="center aligned projects">
+<!-- <div *ngIf="project?.description?.length > 20" class="center aligned projects">
   <div class="ui card">
     <div class="content">
       <div class="header" style="word-wrap: break-word;">{{getNameOf(project)}}</div>
@@ -18,34 +18,18 @@
       <a href="{{project.html_url}}"><button class="ui button"><i class="icon github"></i>See more on</button></a>
     </div>
   </div>
-</div>
-
-<!-- 
-  <div class="four wide column center aligned votes">
-    <div class="ui statistic">
-        <div class="value">
-            {{article.votes}}
-        </div>
-        <div class="label">
-            Points
-        </div>
-    </div>
-</div>
-<div class="twelve wide column">
-    <a href="{{article.link}}" class="ui large header">{{article.title}}</a>
-    <div class="meta">({{article.domain()}})</div>
-    <ul class="ui big horizontal list voters">
-        <li class="item">
-            <a href="" (click)="voteUp()">
-                <i class="arrow up icon"></i>
-                upvote
-            </a>
-        </li>
-        <li class="item">
-            <a href="" (click)="voteDown()">
-                <i class="arrow down icon"></i>
-                downvote
-            </a>
-        </li>
-    </ul>
 </div> -->
+
+<a *ngIf="project?.description?.length > 20" class="ui card" href="{{project.html_url}}">
+  <div class="content">
+    <div class="header">{{project.name}}</div>
+    <div class="description">
+      <p>{{project.description.substring(0,50) + '...'}}</p>
+    </div>
+  </div>
+  <!-- <div class="extra content">
+    <div class="right floated author">
+      <i class="icon github ui avatar image"></i> See more
+    </div>
+  </div> -->
+</a>
