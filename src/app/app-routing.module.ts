@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: 'projects', component: ProjectsComponent },
   { path: 'education', component: EducationComponent },
   { path: 'experience', component: ExperienceComponent },
+  { path: '**', component: WelcomeComponent },
   { path: '', component: WelcomeComponent }
 ];
 

@@ -1,8 +1,9 @@
 # Objectives
  - Projects Page
-    - [ ] create the project Page & add routing
-    - [ ] make requests to the Github API
-    - [ ] display all the repos dinalically
+    - [x] create the project Page & add routing
+    - [x] make requests to the Github API
+    - [x] display all the repos dinamycally
+    - [ ] make the text be centered all the time
  - Experience Page
     - [ ] create the Experience Page
     - [ ] make requests to a file ./experience.json to display the experience dinamically
