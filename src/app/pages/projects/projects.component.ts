@@ -17,13 +17,18 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit(): void {
     this.projectService.getProjects().subscribe(data => {
-      this.projects = data.sort((a,b) => a.name.length - b.name.length );
+      this.projects = this.filter(data);
       this.ready = true;
     });
   }
 
   showContent(ready: boolean) : void {
     this.ready = ready;
+  }
+
+  filter(data: Project[]): Project[] {
+    let filtered =  data.filter(project => project.description && project.description.length > 20);
+    return filtered.sort((a,b) => a.name.length - b.name.length );
   }
 
 }
