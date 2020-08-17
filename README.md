@@ -76,7 +76,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [Visual Studio Code](https://code.visualstudio.com/) - code editor
-- [Angular 10](https://angular.io/) - Server Environment
+- [Angular 10](https://angular.io/) - application design framework and development platform for creating efficient and sophisticated single-page apps.
 - [Semantic UI](https://semantic-ui.com/) - framework that helps create beautiful, responsive layouts using human-friendly HTML.
 
 ## ✍️ Authors <a name = "authors"></a>
