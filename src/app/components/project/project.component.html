@@ -1,35 +1,8 @@
-<!-- <div *ngIf="project?.description?.length > 20" class="center aligned projects">
-  <div class="ui card">
-    <div class="content">
-      <div class="header" style="word-wrap: break-word;">{{getNameOf(project)}}</div>
-    </div>
-    <div class="content">
-      <div class="ui wide feed">
-        <div class="event">
-          <div class="content">
-            <div class="summary">
-              {{project.description.substring(0,50) + '...'}}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="extra content">
-      <a href="{{project.html_url}}"><button class="ui button"><i class="icon github"></i>See more on</button></a>
-    </div>
-  </div>
-</div> -->
-
 <a *ngIf="project?.description?.length > 25" class="ui card" href="{{project.html_url}}">
   <div class="content project">
     <div class="header" style="word-wrap: break-word;">{{getNameOf(project)}}</div>
     <div class="description">
-      <p>{{project.description.substring(0,50) + '...'}}</p>
+      <p>{{project.description.substring(0, 60) + '...'}}</p>
     </div>
   </div>
-  <!-- <div class="extra content">
-    <div class="right floated author">
-      <i class="icon github ui avatar image"></i> See more
-    </div>
-  </div> -->
 </a>

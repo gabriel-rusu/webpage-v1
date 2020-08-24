@@ -47,7 +47,7 @@ export class DynamicTypeComponent implements OnInit {
       this.speed /= 2;
       this.currentChar--;
     }
-    var self = this;
+    let self = this;
     setTimeout(function () {
       self.type();
     }, this.currentChar > currentWordLength ? this.pause : this.speed);
