@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, HostBinding, OnInit} from '@angular/core';
 import { ProjectService } from 'src/app/services/project/project.service';
 import { Project } from '../../models/project.model';
 
@@ -12,6 +12,8 @@ export class ProjectsComponent implements OnInit {
   speed: number = 250;
   projects: Project[];
   ready: boolean = false;
+
+  @HostBinding('attr.class') cssClass = 'full-width';
 
   constructor(private projectService: ProjectService) { }
 

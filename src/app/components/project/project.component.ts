@@ -10,7 +10,7 @@ export class ProjectComponent implements OnInit {
   @Input()
   project: Project;
 
-  @HostBinding('attr.class') cssClasses = 'pad'
+  @HostBinding('attr.class') cssClasses = 'pad';
 
 
   constructor() { }
