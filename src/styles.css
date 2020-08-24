@@ -22,13 +22,20 @@ body {
   color: #cccccc;
   margin-bottom: 5px;
   font-size: 3.5em;
-
+  display: flex;
 }
 
 .normal-text {
   font-family: "Raleway", sans-serif !important;
   text-align: center;
   font-size: 1.3em;
+  display: flex;
+}
+
+.my-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .centered {
@@ -116,4 +123,8 @@ span {
 .pad {
   padding: 10px;
 
+}
+
+.full-width {
+  width: 100%;
 }

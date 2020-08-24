@@ -3,10 +3,11 @@ span {
     animation: caret 1s steps(1) infinite;
     font-size: 80%;
   }
-  
+
   @keyframes caret {
     50% {
       border-color: transparent;
     }
   }
+
 
