@@ -16,7 +16,6 @@
 - [Usage](#usage)
 - [Built Using](#built_using)
 - [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
 This website is a digital version of my traditional paper resume. It shows my education, skills,  previous positions and projects I've worked on. But, it also shows things I cannot accurately share using a paper resume(such as links to my projects)
@@ -77,14 +76,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [Visual Studio Code](https://code.visualstudio.com/) - code editor
-- [Angular 10](https://nodejs.org/en/) - Server Environment
+- [Angular 10](https://angular.io/) - application design framework and development platform for creating efficient and sophisticated single-page apps.
 - [Semantic UI](https://semantic-ui.com/) - framework that helps create beautiful, responsive layouts using human-friendly HTML.
 
 ## ✍️ Authors <a name = "authors"></a>
 - [@RusuGabriel](https://github.com/RusuGabriel) - Idea & Implementation
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
 

@@ -12,6 +12,7 @@ export class ProjectsComponent implements OnInit {
   speed: number = 250;
   projects: Project[];
   ready: boolean = false;
+  @HostBinding('attr.class') cssClasses: string = 'full-width';
 
   @HostBinding('attr.class') cssClass = 'full-width';
 
