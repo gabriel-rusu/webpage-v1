@@ -1,25 +1,18 @@
-<!-- <div class="container " style="overflow-y: auto; max-height: 500px;"> -->
-<div class="ui three column grid">
+<div class="ui one column grid">
     <div class="row sixteen wide column">
-        <div class="column"></div>
         <div class="column">
-            <h1 class="header-text ">
+            <h1 class="header-text " style="margin-bottom: 20px;">
                 <typing [word]="title" [speed]="speed" [id]="title" (ready)="showContent(ready)"></typing>
             </h1>
         </div>
-        <div class="column"></div>
-
     </div>
 </div>
-
-<div *ngIf="ready" class="ui grid">
-    <div class="row">
-        <div class="one wide column"></div>
-        <div class="fourteen wide column">
-            <div class="ui cards">
+<div *ngIf="ready">
+    <div class="container center aligned">
+        <div class="sixteen wide column">
+            <div class="ui cards ">
                 <project *ngFor="let project of projects" [project]="project"></project>
             </div>
         </div>
-        <!-- <div class="one wide column"></div> -->
     </div>
 </div>
