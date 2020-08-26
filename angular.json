@@ -121,8 +121,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "https://RusuGabriel.github.io/Webpage/",
-            "branch": "production"
+            "baseHref": "https://RusuGabriel.github.io/Webpage/"
           }
         }
       }
