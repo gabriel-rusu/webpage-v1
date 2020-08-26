@@ -14,8 +14,6 @@ export class ProjectsComponent implements OnInit {
   ready: boolean = false;
   @HostBinding('attr.class') cssClasses: string = 'full-width';
 
-  @HostBinding('attr.class') cssClass = 'full-width';
-
   constructor(private projectService: ProjectService) { }
 
   ngOnInit(): void {
