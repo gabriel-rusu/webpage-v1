@@ -1,5 +1,6 @@
-import { Component, OnInit, HostBinding } from '@angular/core';
+import {Component, OnInit, HostBinding} from '@angular/core';
 import {Experience} from '../../models/experience.model';
+import {ExperienceService} from '../../services/experience/experience.service';
 
 @Component({
   selector: 'app-experience',
@@ -9,13 +10,16 @@ import {Experience} from '../../models/experience.model';
 export class ExperienceComponent implements OnInit {
   title: string = 'Experience';
   speed: number = 250;
-  projects: Experience[];
+  xps: Experience[];
   ready: boolean = false;
   @HostBinding('attr.class') cssClasses: string = 'full-width';
 
-  constructor() { }
+  constructor(private experienceService: ExperienceService) {
+  }
 
   ngOnInit(): void {
+    this.experienceService.getExperience().subscribe(xps =>
+      this.xps = xps);
   }
 
 }
