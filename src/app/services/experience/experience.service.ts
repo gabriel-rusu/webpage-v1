@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ExperienceService {
-  url: string = 'ceva';
+  url: string = 'https://raw.githubusercontent.com/RusuGabriel/Webpage/master/src/assets/data/experience.json';
 
   constructor(private http: HttpClient) { }
 
