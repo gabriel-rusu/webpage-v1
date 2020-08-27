@@ -18,7 +18,9 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit(): void {
     this.projectService.getProjects().subscribe(data => {
+      console.log(data);
       this.projects = this.filter(data);
+      
       this.ready = true;
     });
   }
