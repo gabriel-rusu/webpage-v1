@@ -1,27 +1,27 @@
-<!--<div class="item">-->
-<!--  <img class="ui avatar image"-->
-<!--       src="{{experience.logoUrl}}">-->
-<!--  <div class="content">-->
-<!--    <div class="description normal-text">{{experience.position}}-->
-<!--      <div class="ui list">-->
-<!--        <div class="item">-->
-<!--          <div class="content">-->
-<!--            <p class="normal-text">descriere</p>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--</div>-->
-
-<div class="item">
-  <div class="ui small image">
+<div class="item" style="width: 100%; display: inline-block;">
+  <div class="ui small image left floated">
     <img src="{{experience.logoUrl}}">
   </div>
   <div class="content">
-    <div class="header">Arrowhead Valley Camp</div>
-    <div class="description">
-      <p>This is the description</p>
+    <div class="header left-align" style="font-size: 1.1em;">{{experience.position}}</div>
+    <div class="meta left-align" style=" font-size: 0.9em;">
+      <p>{{experience.companyName}}</p>
+    </div>
+    <div class="description left-align" style=" font-size: 0.7em;">
+      <div class="ui inverted">
+        <div class="ui inverted list">
+          <div class="item">
+            <div class="content">
+              {{this.getPeriodOfTime()}}
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="ui list left-align" style="clear: top;">
+        <li>Gaining Access</li>
+        <li>Inviting Friends</li>
+        <li>Benefits</li>
+      </ul>
     </div>
   </div>
 </div>

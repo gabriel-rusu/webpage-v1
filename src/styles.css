@@ -124,6 +124,10 @@ span {
 .resize {
   font-size: 9vw;
 }
+
+.left-align {
+  text-align: left !important;
+}
 /*
 .spacing {
 
