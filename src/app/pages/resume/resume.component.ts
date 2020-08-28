@@ -1,4 +1,6 @@
 import {Component, HostBinding, OnInit} from '@angular/core';
+import {Experience} from '../../models/experience.model';
+import {ExperienceService} from '../../services/experience/experience.service';
 
 @Component({
   selector: 'app-resume',
@@ -6,13 +8,18 @@ import {Component, HostBinding, OnInit} from '@angular/core';
   styleUrls: ['./resume.component.css']
 })
 export class ResumeComponent implements OnInit {
-  title: string = 'Résumé';
   @HostBinding('attr.class') cssClasses: string = 'full-width';
 
-  constructor() {
+  title: string = 'Résumé';
+  experience: Experience[];
+
+  constructor(private experienceService: ExperienceService) {
   }
 
   ngOnInit(): void {
+    this.experienceService.getExperience().subscribe(data =>
+      this.experience = data
+    );
   }
 
 }
