@@ -17,8 +17,10 @@ export class ResumeComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.experienceService.getExperience().subscribe(data =>
-      this.experience = data
+    this.experienceService.getExperience().subscribe(data => {
+        this.experience = data;
+        console.log(this.experience);
+      }
     );
   }
 
