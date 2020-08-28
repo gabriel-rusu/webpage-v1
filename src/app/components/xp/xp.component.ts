@@ -7,8 +7,7 @@ import {Experience} from '../../models/experience.model';
   styleUrls: ['./xp.component.css']
 })
 export class XpComponent implements OnInit {
-  @Input()
-  xp: Experience;
+
   constructor() { }
 
   ngOnInit(): void {
