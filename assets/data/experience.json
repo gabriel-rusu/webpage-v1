@@ -1,0 +1,23 @@
+[
+  {
+    "companyName": "Canadian Bank Note",
+    "position": "Software Engineer",
+    "startDate": "2/12/2019",
+    "endDate": "null",
+    "bulletDetails": [
+      "Developing software to make the world a more secure & better place"
+    ],
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Canadian_Bank_Note_Company_logo.svg/1200px-Canadian_Bank_Note_Company_logo.svg.png"
+  },
+  {
+    "companyName": "Faculty of Automatic Control and Computers",
+    "position": "Undergraduate Teaching Assistant",
+    "startDate": "1/10/2018",
+    "endDate": "null",
+    "bulletDetails": [
+      "Assisting first year students with their activities during the laboratories in C language",
+      "Understanding their problems and helping them solve eventual errors"
+    ],
+    "logoUrl": "https://i.ibb.co/gd02sbC/logo.png"
+  }
+]
