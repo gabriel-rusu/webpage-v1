@@ -1,4 +1,4 @@
-<div class="item" style="width: 100%; display: inline-block;">
+<div class="item" style="width: 100%; display: inline-block;padding-bottom: 20px;">
   <div class="ui small image left floated">
     <img src="{{experience.logoUrl}}">
   </div>
@@ -7,7 +7,7 @@
     <div class="meta left-align" style=" font-size: 0.9em;">
       <p>{{experience.companyName}}</p>
     </div>
-    <div class="description left-align" style=" font-size: 0.7em;">
+    <div class="description left-align" style=" font-size: 0.7em; display: flow-root;">
       <div class="ui inverted">
         <div class="ui inverted list">
           <div class="item">
@@ -17,10 +17,8 @@
           </div>
         </div>
       </div>
-      <ul class="ui list left-align" style="clear: top;">
-        <li>Gaining Access</li>
-        <li>Inviting Friends</li>
-        <li>Benefits</li>
+      <ul class="ui list left-align">
+        <li *ngFor="let bullet of experience.bulletDetails"></li>
       </ul>
     </div>
   </div>
