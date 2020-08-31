@@ -22,7 +22,6 @@ export class ExperienceComponent implements OnInit {
   }
 
   process(date: Date): string {
-    console.log(date);
     if (date === null || date.toString() === 'null') {
       return 'Present';
     } else {

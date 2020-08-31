@@ -4,6 +4,6 @@
     - [x] make requests to the Github API
     - [x] display all the repos dinamycally
     - [x] make the text be centered all the time
- - Experience Page
-    - [ ] create the Experience Page
-    - [ ] make requests to a file ./experience.json to display the experience dinamically
+ - Resume Page
+    - [x] show the Experience dinamically
+    - [x] make requests to a file ./experience.json to display the experience dinamically
