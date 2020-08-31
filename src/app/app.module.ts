@@ -10,7 +10,6 @@ import {ProjectsComponent} from './pages/projects/projects.component';
 import {AppRoutingModule} from './app-routing.module';
 import {WelcomeComponent} from './pages/welcome/welcome.component';
 import {ProjectComponent} from './components/project/project.component';
-import {XpComponent} from './components/xp/xp.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { EducationComponent } from './components/education/education.component';
 import { ResumeComponent } from './pages/resume/resume.component';
@@ -23,7 +22,6 @@ import { ResumeComponent } from './pages/resume/resume.component';
     TypingComponent,
     WelcomeComponent,
     ProjectComponent,
-    XpComponent,
     ExperienceComponent,
     EducationComponent,
     ResumeComponent,
