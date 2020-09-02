@@ -26,12 +26,9 @@ This projects also was designed to auto-update its content using the Github API 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-What things you need to install the software and how to install them.
-
-```
-Nodejs
-Angular CLI
-```
+To run and modify the project easily you should install:
+  - [NodeJS](https://nodejs.org/en/)
+  - [Angular CLI](https://cli.angular.io/)
 
 ### Installing
 
