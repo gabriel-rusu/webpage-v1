@@ -27,7 +27,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 To run and modify the project easily you should install:
-  - [NodeJS](https://nodejs.org/en/)
+  - [Node JS](https://nodejs.org/en/)
   - [Angular CLI](https://cli.angular.io/)
 
 ### Installing
