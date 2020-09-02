@@ -20,7 +20,7 @@
 ## 🧐 About <a name = "about"></a>
 This website is a digital version of my traditional paper resume. It shows my education, skills,  previous positions and projects I've worked on. But, it also shows things I cannot accurately share using a paper resume(such as links to my projects)
 
-This projects also was designed to autoupdate it's content using the Github API & some configuration JSON files
+This projects also was designed to auto-update its content using the Github API & some configuration JSON files the end goal is to make a personal webpage that doesn't need any manual updating.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
