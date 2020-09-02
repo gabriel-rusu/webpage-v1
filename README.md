@@ -36,7 +36,7 @@ Angular CLI
 ### Installing
 
 To install this project on your computer all you have to do is run the following command in the root of the project directory:```npm install```
-After running the command to start the page run ```npm start``` or ```ng serve``` if you installed the Angular CLI.
+After running the command to start the app run ```npm start``` or ```ng serve``` if you installed the Angular CLI.
 
 ## 🔧 Running the tests <a name = "tests"></a>
 
