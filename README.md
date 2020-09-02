@@ -34,21 +34,9 @@ Angular CLI
 ```
 
 ### Installing
-A step by step series of examples that tell you how to get a development env running.
 
-Say what the step will be
-
-```
-npm install
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
+To install this project on your computer all you have to do is run the following command in the rrot of the project directory:```npm install```
+After running the command to start the page run ```npm start``` or ```ng serve``` if you installed the Angular CLI.
 
 ## 🔧 Running the tests <a name = "tests"></a>
 
