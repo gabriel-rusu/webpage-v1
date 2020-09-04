@@ -2,8 +2,12 @@
  - Projects Page
     - [x] create the project Page & add routing
     - [x] make requests to the Github API
-    - [x] display all the repos dinamycally
-    - [x] make the text be centered all the time
+    - [x] display all the repos dynamically
+    - [x] make the text centered all the time
+    - [ ] add images particular to every page in their repo & make requests for them
  - Resume Page
-    - [x] show the Experience dinamically
+    - [x] show the Experience dynamically
     - [x] make requests to a file ./experience.json to display the experience dinamically
+    - [ ] finish the education component
+    - [ ] add the loading screen here too
+    - [ ] make the UPB logo same size as cbn logo

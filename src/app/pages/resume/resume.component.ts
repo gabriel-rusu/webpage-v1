@@ -12,6 +12,7 @@ export class ResumeComponent implements OnInit {
 
   title: string = 'Résumé';
   experience: Experience[];
+  ready: boolean = false;
 
   constructor(private experienceService: ExperienceService) {
   }
@@ -19,6 +20,7 @@ export class ResumeComponent implements OnInit {
   ngOnInit(): void {
     this.experienceService.getExperience().subscribe(data => {
         this.experience = data;
+        this.ready = true;
       }
     );
   }
