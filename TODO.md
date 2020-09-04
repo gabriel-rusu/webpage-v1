@@ -9,5 +9,5 @@
     - [x] show the Experience dynamically
     - [x] make requests to a file ./experience.json to display the experience dinamically
     - [ ] finish the education component
-    - [ ] add the loading screen here too
+    - [x] add the loading screen on the Resume page
     - [ ] make the UPB logo same size as cbn logo
