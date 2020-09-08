@@ -29,10 +29,10 @@ export class EducationComponent implements OnInit {
 
   computeTitle(): string {
     if (this.education.endDate === null || this.education.endDate.toString() === 'null') {
-      return 'Pursuing a ' + this.education.bachelorType + ' degree in ' + this.education.studyField;
+      return 'Pursuing a ' + this.education.bachelorType + ' degree, ' + this.education.studyField;
     } else {
       return this.education.bachelorType.charAt(0).toUpperCase() +
-        this.education.bachelorType.slice(1) + ' degree in ' + this.education.studyField;
+        this.education.bachelorType.slice(1) + ' degree, ' + this.education.studyField;
     }
   }
 }
