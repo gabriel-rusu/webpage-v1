@@ -1,12 +1,12 @@
 [
   {
-    "educationInstitution": "Faculty of Automatic Control and Computers",
+    "institution": "Faculty of Automatic Control and Computers",
     "startDate": "1/10/2017",
     "endDate": "null",
     "bulletDetails": [
       "Assisting first year students with their activities during the laboratories in C language",
       "Understanding their problems and helping them solve eventual errors"
     ],
-    "institutionLogoUrl": "https://i.ibb.co/gd02sbC/logo.png"
+    "logoUrl": "https://i.ibb.co/gd02sbC/logo.png"
   }
 ]

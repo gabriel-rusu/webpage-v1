@@ -1,1 +1,27 @@
-<p>education works!</p>
+<div class="item" style="width: 100%; display: inline-block;padding-bottom: 20px;">
+  <div class="ui small image left floated">
+    <img src="{{education.logoUrl}}">
+  </div>
+  <div class="content">
+    <div class="header left-align" style="font-size: 1.1em;">
+      <p class="same-line">{{computeTitle()}}</p>
+    </div>
+    <div class="meta left-align" style=" font-size: 0.9em;">
+      <p>{{education.institution}}</p>
+    </div>
+    <div class="description left-align" style=" font-size: 0.7em; display: flow-root;">
+      <div class="ui inverted">
+        <div class="ui inverted list">
+          <div class="item">
+            <div class="content">
+              <i class="icon calendar alternate outline inverted"></i>{{this.getPeriodOfTime()}}
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="ui list left-align">
+        <li *ngFor="let bullet of education.bulletDetails">{{bullet}}</li>
+      </ul>
+    </div>
+  </div>
+</div>
