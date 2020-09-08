@@ -8,7 +8,7 @@
   </div>
 </div>
 
-<div *ngIf="!ready">
+<div *ngIf="!ready1 || !ready2">
   <div class="ui active dimmer">
     <div class="ui indeterminate text loader">Loading Résumé details</div>
   </div>
@@ -19,3 +19,7 @@
   <experience class="full-width" *ngFor="let xp of experience" [experience]="xp"></experience>
 </div>
 
+<p class="normal-text left-align">Education:</p>
+<div class="ui divided items">
+  <education class="full-width" *ngFor="let education of educationDegrees" [education]="education"></education>
+</div>
