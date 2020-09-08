@@ -1,6 +1,8 @@
 [
   {
     "institution": "Faculty of Automatic Control and Computers",
+    "bachelorType": "bachelor's",
+    "studyField": "Systems Engineering",
     "startDate": "1/10/2017",
     "endDate": "null",
     "bulletDetails": [
