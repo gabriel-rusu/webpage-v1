@@ -4,7 +4,7 @@
   </div>
   <div class="content">
     <div class="header left-align" style="font-size: 1.1em;">
-      <p class="same-line">{{computeTitle()}}</p>
+      <p class="same-line" style="max-width: 550px">{{computeTitle()}}</p>
     </div>
     <div class="meta left-align" style=" font-size: 0.9em;">
       <p>{{education.institution}}</p>
@@ -19,7 +19,7 @@
           </div>
         </div>
       </div>
-      <ul class="ui list left-align">
+      <ul class="ui list left-align" style="max-width: 500px;text-align: justify !important;">
         <li *ngFor="let bullet of education.bulletDetails">{{bullet}}</li>
       </ul>
     </div>
