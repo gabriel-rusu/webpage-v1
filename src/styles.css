@@ -120,6 +120,11 @@ span {
   padding: 10px;
 }
 
+.xp-padding {
+  padding: 10px;
+  margin: auto;
+}
+
 .resize {
   font-size: 9vw;
 }
