@@ -9,16 +9,30 @@ import {Education} from '../../models/education.model';
 export class EducationComponent implements OnInit {
   @Input() education: Education;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
 
-  getPeriodOfTime() {
-    return "";
+  getPeriodOfTime(): string {
+    return this.process(this.education.startDate) + ' - ' + this.process(this.education.endDate);
   }
 
-  computeTitle() {
-    return "";
+  private process(date: Date): string {
+    if (date === null || date.toString() === 'null') {
+      return 'Present';
+    } else {
+      return date.toString();
+    }
+  }
+
+  computeTitle(): string {
+    if (this.education.endDate === null || this.education.endDate.toString() === 'null') {
+      return 'Pursuing a ' + this.education.bachelorType + ' degree in ' + this.education.studyField;
+    } else {
+      return this.education.bachelorType.charAt(0).toUpperCase() +
+        this.education.bachelorType.slice(1) + ' degree in ' + this.education.studyField;
+    }
   }
 }
