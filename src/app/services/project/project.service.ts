@@ -7,7 +7,7 @@ import {Project } from '../../models/project.model';
   providedIn: 'root'
 })
 export class ProjectService {
-  githubRepos = 'https://api.github.com/users/RusuGabriel/repos';
+  githubRepos = 'https://api.github.com/users/gabriel-rusu/repos';
 
   constructor(private http: HttpClient) { }
 
