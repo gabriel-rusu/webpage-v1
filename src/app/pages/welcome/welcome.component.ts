@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class WelcomeComponent implements OnInit {
   delta = 120;
   theme = 'dark-theme-word'
-  words = ["Software Engineer", "System Engineering student", "Undergraduate Teaching Assistant", "Open Source Enthusiast"]
+  words = ["Software Engineer", "Teaching Assistant", "Open Source Enthusiast"]
 
 
   constructor() { }
