@@ -52,5 +52,5 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 - [Angular 10](https://angular.io/) - application design framework and development platform for creating efficient and sophisticated single-page apps.
 
 ## ✍️ Authors <a name = "authors"></a>
-- [@RusuGabriel](https://github.com/RusuGabriel) - Idea & Implementation
+- [@gabriel-rusu](https://github.com/gabriel-rusu) - Idea & Implementation
 
