@@ -122,7 +122,7 @@
           "builder": "angular-cli-ghpages:deploy",
           "options": {
             "branch": "production",
-            "cname": "gabrielrusu.dev"
+            "baseHref": "https://gabriel-rusu.github.io/Old-Webpage/",
           }
         }
       }
