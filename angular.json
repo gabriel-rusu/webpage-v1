@@ -16,7 +16,9 @@
             "outputPath": "dist/webpage",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "polyfills": "src/polyfills.ts",
+            "polyfills": [
+              "zone.js"
+            ],
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
@@ -39,7 +41,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
@@ -121,12 +122,17 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "branch": "production",
-            "baseHref": "https://gabriel-rusu.github.io/webpage-v1/"
+            "baseHref": "https://gabriel-rusu.github.io/webpage-v1/",
+            "branch": "production"
           }
         }
       }
     }
   },
-  "defaultProject": "webpage"
+  "cli": {
+    "cache": {
+      "enabled": false
+    },
+    "analytics": false
+  }
 }
