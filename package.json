@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "install": "npm install",
+    "update": "ng update @angular/core@11 @angular/cli@11"
   },
   "private": true,
   "dependencies": {
