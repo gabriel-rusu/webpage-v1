@@ -13,6 +13,7 @@
 - [About](#about)
 - [Getting Started](#getting_started)
 - [Deployment](#deployment)
+- [Running with Docker Compose](#docker_compose)
 - [Usage](#usage)
 - [Built Using](#built_using)
 - [Authors](#authors)
@@ -45,6 +46,15 @@ After running the command to start the app run ```npm start``` or ```ng serve```
 ## 🚀 Deployment <a name = "deployment"></a>
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## 🐳 Running with Docker Compose <a name = "docker_compose"></a>
+You can run the project using Docker Compose with no need for installing Node or Angular CLI locally.
+Make sure Docker and Docker Compose are installed and started then run the following command:
+```bash
+docker-compose up --build
+```
+Open your browser and go to http://localhost:4200.
+
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [Visual Studio Code](https://code.visualstudio.com/) - code editor
 - [Semantic UI](https://semantic-ui.com/) - framework that helps create beautiful, responsive layouts using human-friendly HTML.
